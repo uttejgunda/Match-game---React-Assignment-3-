@@ -1,0 +1,117 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+}
+.nav-bar-container {
+  background-color: #2c0e3a;
+}
+.nav-bar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+}
+.logo-container {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 200px;
+}
+.score-timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.score {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #fff;
+}
+.timer {
+  width: 25px;
+  height: 25px;
+}
+.seconds,
+.score-count {
+  color: #fec653;
+  font-size: 22px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+}
+.main-img {
+  width: 50%;
+}
+.tabs-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 30%;
+  margin-top: 20px;
+}
+.tab-item-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  list-style: none;
+}
+.score-card {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  padding-top: 220px;
+  margin-bottom: 50px;
+}
+.trophy {
+  width: 40%;
+}
+.score-text {
+  font-family: 'roboto';
+  font-size: 24px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.score-number {
+  font-family: 'roboto';
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.playAgain-button {
+  border: none;
+  background-color: #cf60c8;
+  color: white;
+  font-family: 'roboto';
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
